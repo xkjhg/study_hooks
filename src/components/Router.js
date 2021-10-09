@@ -7,6 +7,8 @@ import Use_Tabs from "../routes/Use_Tabs"
 import Use_Title from "../routes/Use_Title"
 import Use_Click from "../routes/Use_Click"
 import Navigation from "./Navigation"
+import Use_Confirm from "../routes/Use_Confirm"
+import Use_PreventLeave from "../routes/Use_PreventLeave"
 
 const AppRouter = () => {
   return (
@@ -31,6 +33,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/Use_Click">
             <Use_Click />
+          </Route>
+          <Route exact path="/Use_Confirm">
+            <Use_Confirm />
+          </Route>
+          <Route exact path="/Use_PreventLeave">
+            <Use_PreventLeave />
           </Route>
         </div>
       </Switch>
