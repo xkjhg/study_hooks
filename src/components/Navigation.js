@@ -13,6 +13,8 @@ const Navigation = () => {
       <Link to="/Use_Click">useClick</Link>
       <Link to="/Use_Confirm">useConfirm</Link>
       <Link to="/Use_PreventLeave">usePreventLeave</Link>
+      <Link to="/Use_BeforeLeave">useBeforeLeave</Link>
+      <Link to="/Use_FadeIn">useFadeIn</Link>
     </nav>
   )
 }

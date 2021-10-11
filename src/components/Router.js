@@ -9,6 +9,8 @@ import Use_Click from "../routes/Use_Click"
 import Navigation from "./Navigation"
 import Use_Confirm from "../routes/Use_Confirm"
 import Use_PreventLeave from "../routes/Use_PreventLeave"
+import Use_BeforeLeave from "../routes/Use_BeforeLeave"
+import Use_FadeIn from "../routes/Use_FadeIn"
 
 const AppRouter = () => {
   return (
@@ -39,6 +41,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/Use_PreventLeave">
             <Use_PreventLeave />
+          </Route>
+          <Route exact path="/Use_BeforeLeave">
+            <Use_BeforeLeave />
+          </Route>
+          <Route exact path="/Use_FadeIn">
+            <Use_FadeIn />
           </Route>
         </div>
       </Switch>
