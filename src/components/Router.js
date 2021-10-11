@@ -11,6 +11,7 @@ import Use_Confirm from "../routes/Use_Confirm"
 import Use_PreventLeave from "../routes/Use_PreventLeave"
 import Use_BeforeLeave from "../routes/Use_BeforeLeave"
 import Use_FadeIn from "../routes/Use_FadeIn"
+import Use_Network from "../routes/Use_Network"
 
 const AppRouter = () => {
   return (
@@ -47,6 +48,9 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/Use_FadeIn">
             <Use_FadeIn />
+          </Route>
+          <Route exact path="/Use_Network">
+            <Use_Network />
           </Route>
         </div>
       </Switch>
