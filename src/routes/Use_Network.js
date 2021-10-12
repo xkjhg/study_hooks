@@ -11,11 +11,10 @@ const useNetwork = onChange => {
   useEffect(() => {
     window.addEventListener("online", handleChange)
     window.addEventListener("offline", handleChange)
-    const rem = () => {
+    return () => {
       window.removeEventListener("online", handleChange)
       window.removeEventListener("offline", handleChange)
     }
-    return rem
   }, [])
   return status
 }

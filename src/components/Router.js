@@ -12,6 +12,8 @@ import Use_PreventLeave from "../routes/Use_PreventLeave"
 import Use_BeforeLeave from "../routes/Use_BeforeLeave"
 import Use_FadeIn from "../routes/Use_FadeIn"
 import Use_Network from "../routes/Use_Network"
+import Use_Scroll from "../routes/Use_Scroll"
+import Use_Fullscreen from "../routes/Use_Fullscreen"
 
 const AppRouter = () => {
   return (
@@ -51,6 +53,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/Use_Network">
             <Use_Network />
+          </Route>
+          <Route exact path="/Use_Scroll">
+            <Use_Scroll />
+          </Route>
+          <Route exact path="/Use_Fullscreen">
+            <Use_Fullscreen />
           </Route>
         </div>
       </Switch>
