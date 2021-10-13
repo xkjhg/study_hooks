@@ -14,6 +14,7 @@ import Use_FadeIn from "../routes/Use_FadeIn"
 import Use_Network from "../routes/Use_Network"
 import Use_Scroll from "../routes/Use_Scroll"
 import Use_Fullscreen from "../routes/Use_Fullscreen"
+import Use_Notification from "../routes/Use_Notification"
 
 const AppRouter = () => {
   return (
@@ -59,6 +60,9 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/Use_Fullscreen">
             <Use_Fullscreen />
+          </Route>
+          <Route exact path="/Use_Notification">
+            <Use_Notification />
           </Route>
         </div>
       </Switch>

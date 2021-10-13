@@ -18,6 +18,7 @@ const Navigation = () => {
       <Link to="/Use_Network">useNetwork</Link>
       <Link to="/Use_Scroll">useScroll</Link>
       <Link to="/Use_Fullscreen">useFullscreen</Link>
+      <Link to="/Use_Notification">useNotification</Link>
     </nav>
   )
 }
